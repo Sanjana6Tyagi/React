@@ -5,7 +5,7 @@
    ES6 (ECMAScript 2015) features are not mandatory for React, but they are commonly used and highly beneficial. ES6 introduces modern Javascript suntax, arrow functions, classes, destructuring, and more, making the code readable, cleaner, more maintainable and easier to understand. React components and projects can be written in ES5, but leveraging ES6 feature is strongly encouraged.
 
 3. **How can I write comments in JSX?**
-   In JSX, you can write comments within curly braces "({/_ your comment here _/})" or a single-line comment using "//" outside the JSX expression.
+   In JSX, you can write comments within curly braces "({/*_ your comment here _*/})" or a single-line comment using "//" outside the JSX expression.
 
 4. **What is "<React.Fragment></React.Fragment>" and "<></>"?**
    "<React.Fragment>" and "<></>" are used to wrap multiple JSX elements without introducing an extra DOM node. They act as invisible containers. "<React.Fragment>" is the traditional syntax, and "<></>" is a shorthand for the same purpose introduced in React 16.2.
