@@ -1,0 +1,76 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black
+}
+
+.logo{
+    width:230px;
+}
+.nav-items>ul{
+    display:flex;
+    margin-top: 36px;
+    list-style-type: none;
+    font-size: 24px;
+}
+.nav-items>ul>li{
+    padding:10px;
+    margin:10px;
+    
+}
+.res-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    width:200px;
+  
+margin:5px;
+
+    padding:10px
+}
+.res-card:hover{
+    border:1px solid black;
+    cursor: pointer;
+}
+.search{
+    padding:10px;
+}
+.res-logo{
+    width:100%;
+   height:50%;
+   
+   
+}
+.rating-icon{
+    width:20px;
+    height:20px;
+   padding-right: 5px;
+}
+.res-delivery-time{
+    padding-left:10px ;
+}
+.res-offer-heading{
+    position: absolute;
+    
+    top:38%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight:900;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:5px;
+}
+.res-offer-heading-text{
+font-size: 10px;
+}
+.res-cuisine-address{
+    color:rgb(144, 145, 144);
+    font-weight: lighter;
+   
+   
+}
+.filter-btn{
+    margin:10px;
+    cursor:pointer
+}
