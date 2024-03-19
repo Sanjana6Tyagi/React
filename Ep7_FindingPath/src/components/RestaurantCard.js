@@ -13,18 +13,21 @@ const Restaurantcard = (props) => {
     costForTwo,sla
   } = resData?.info;
   const styleCard = {
-    backgroundColor: "#f0f0f0",
+    // backgroundColor: "#f0f0f0",
     position: "relative",
   };
   console.log(aggregatedDiscountInfoV3,"sale")
   return (
     <div className="res-card" style={styleCard}>
+       
       <img
         alt="res-logo"
         className="res-logo"
         src={CDN_URL + cloudinaryImageId}
+        
       />
-
+      
+<div className="overlay"></div> 
       {aggregatedDiscountInfoV3?.header?(<h2 className="res-offer-heading">{aggregatedDiscountInfoV3?.header+" "+ aggregatedDiscountInfoV3?.subHeader} </h2>):(<></>)}
 
       <h3> {name}</h3>

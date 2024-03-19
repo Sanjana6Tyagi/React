@@ -28,12 +28,14 @@
     width:200px;
   height:500px;
 margin:5px;
-
+transition: transform 0.1s ease;
     padding:10px
 }
 .res-card:hover{
-    border:1px solid black;
+  
     cursor: pointer;
+   
+    transform: scale(0.98); /* Slightly scale down the overlay when hovered */
 }
 .search{
     padding:10px;
@@ -41,7 +43,7 @@ margin:5px;
 .res-logo{
     width:100%;
    height:50%;
-   
+   border-radius:30px;
    
 }
 .rating-icon{
@@ -55,16 +57,18 @@ margin:5px;
 .res-offer-heading{
     position: absolute;
    
-    top:36%;
+   
+    bottom:47%;
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight:900;
-    padding-left:10px;
-    padding-right:10px;
-    padding-bottom:5px;
+   padding:10px;
+ 
+    
 }
 .res-offer-heading-text{
 font-size: 10px;
+
 }
 .res-cuisine-address{
     color:rgb(144, 145, 144);
@@ -99,3 +103,17 @@ font-size: 10px;
 .search-box{
     margin-right:4px;
 }
+.link {
+    color: #222222;
+  }
+  .overlay{
+    position: absolute;
+    bottom: 260;
+   width:91%;
+    height:10%;
+    border-radius:30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0,0.92));
+    
+  }
+  
+  
