@@ -1,0 +1,124 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid black;
+    padding-right:10px;
+}
+
+.logo{
+    width:230px;
+}
+.nav-items>ul{
+    display:flex;
+    margin-top: 36px;
+    list-style-type: none;
+    font-size: 24px;
+}
+.nav-items>ul>li{
+    padding:10px;
+    margin:10px;
+    
+    
+}
+.res-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+.res-card{
+    width:200px;
+  height:500px;
+margin:5px;
+transition: transform 0.1s ease;
+    padding:10px
+}
+.res-card:hover{
+  
+    cursor: pointer;
+   
+    transform: scale(0.98); /* Slightly scale down the overlay when hovered */
+}
+.search{
+    padding:10px;
+}
+.res-logo{
+    width:100%;
+   height:50%;
+   border-radius:30px;
+   
+}
+.rating-icon{
+    width:20px;
+    height:20px;
+   padding-right: 5px;
+}
+.res-delivery-time{
+    padding-left:10px ;
+}
+.res-offer-heading{
+    position: absolute;
+   
+   
+    bottom:47%;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight:900;
+   padding:10px;
+ 
+    
+}
+.res-offer-heading-text{
+font-size: 10px;
+
+}
+.res-cuisine-address{
+    color:rgb(144, 145, 144);
+    font-weight: lighter;
+   
+   
+}
+.filter-btn{
+    margin:10px;
+    cursor:pointer;
+}
+.shimmer-card{
+    width:200px;
+    height:250px;
+    background-color: #f0f0f0;
+    margin:10px;
+   
+}
+.shimmer-container{
+    display:flex;
+    flex-wrap: wrap;
+   
+}
+.login-btn{
+    padding: 0 20px;
+    cursor: pointer;
+}
+.filter{
+    display:flex;
+
+}
+.search-box{
+    margin-right:4px;
+}
+.link {
+    color: #222222;
+  }
+  .overlay{
+    position: absolute;
+    bottom: 260;
+   width:91%;
+    height:10%;
+    
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius:30px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0,0.92));
+    
+  }
+  .user-card{
+    padding:10px;
+    border: 1px solid black;
+  }
+  
